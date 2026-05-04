@@ -203,3 +203,7 @@ curl http://shield.mcu.com
 <img width="1487" height="510" alt="image" src="https://github.com/user-attachments/assets/500b3052-9e6c-4c9f-95fd-f459ab0b78e6" />
 
 
+---
+Full request flow
+Browser → /etc/hosts → 10.10.10.202 → Ingress → Service → Pod
+
