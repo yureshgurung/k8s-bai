@@ -205,5 +205,6 @@ curl http://shield.mcu.com
 
 ---
 Full request flow
+
 Browser → /etc/hosts → 10.10.10.202 → Ingress → Service → Pod
 
