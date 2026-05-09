@@ -1,4 +1,4 @@
-# Kubernetes Secrets Hands-On (Secret + Pod)
+# Kubernetes Secrets Hands
 
 This guide explains how to use a Kubernetes Secret (`tkb-secret`) and mount it into a Pod (`secret-pod`) using a volume.
 
