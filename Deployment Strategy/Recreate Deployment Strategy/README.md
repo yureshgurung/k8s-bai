@@ -10,6 +10,10 @@ The example uses the Docker image `amitabhdevops/online_shop` and exposes it thr
 
 In Kubernetes, the **Recreate** deployment strategy terminates all existing Pods before creating new Pods.
 
+
+<img width="1536" height="1024" alt="recreate" src="https://github.com/user-attachments/assets/103a9a3a-e250-4ef1-a62a-0bfd99d1afbd" />
+
+
 ### How It Works
 
 1. Kubernetes deletes all currently running Pods.
