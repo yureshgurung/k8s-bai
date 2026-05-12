@@ -76,6 +76,25 @@ kubectl apply -f rolingservice.yaml
 
 ---
 
+
+Access the Application
+Because the Service type is NodePort, the application is available on all cluster nodes.
+
+URLs
+http://10.10.10.181:30000
+
+http://10.10.10.182:30000
+image
+Optional Port Forward
+
+kubectl port-forward --address 0.0.0.0 svc/recreate-service 3000:3000 -n recreate-y
+Then open:
+<img width="1911" height="928" alt="image" src="https://github.com/user-attachments/assets/bdc8828c-f3cf-4eba-90fd-0c372098dd0a" />
+
+http://10.10.10.181:3000
+
+Port forwarding is temporary and works only while the command is running.
+
 ## Check Resources
 
 ### Pods
