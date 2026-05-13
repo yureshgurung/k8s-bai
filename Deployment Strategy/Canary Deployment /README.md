@@ -5,6 +5,7 @@
 A **Canary Deployment** in Kubernetes is a release strategy where a new version of an application is gradually introduced to a small subset of users before rolling it out to everyone. This approach helps reduce risk by exposing the new version to limited traffic first and monitoring its behavior.
 
 ---
+<img width="1564" height="1006" alt="cannary" src="https://github.com/user-attachments/assets/e89b976c-4538-42fd-aeca-1bdf079a6f44" />
 
 ## How It Works
 
