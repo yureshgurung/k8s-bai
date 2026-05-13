@@ -4,6 +4,21 @@ The major deployment strategies used in modern DevOps and Kubernetes environment
 
 ---
 
+## Cluster Information
+
+This project was tested on a two-node Kubernetes cluster.
+
+| Node Name      | Role                | Internal IP  |
+| -------------- | ------------------- | ------------ |
+| yuresh-master1 | control-plane, etcd | 10.10.10.181 |
+| yuresh-worker1 | worker              | 10.10.10.182 |
+
+Kubernetes Version: `v1.35.4+rke2r1`
+
+---
+<img width="1902" height="154" alt="image" src="https://github.com/user-attachments/assets/2705bf4e-752d-448f-9918-1b4746f6a4cc" />
+
+
 ## 1. Zero-Downtime Deployment Strategies (Production-Ready)
 
 ### 🔵 Rolling Update
